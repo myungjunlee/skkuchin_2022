@@ -1,0 +1,75 @@
+/* 전체 그리드 ios */
+.noti_list {
+  padding: 90px 20px calc(constant(safe-area-inset-bottom) + 20px);
+  padding: 90px 20px calc(env(safe-area-inset-bottom) + 20px);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* 전체 그리드 and */
+/* .noti_list {
+  padding: 70px 20px 20px;
+  font-size: 16px;
+  font-weight: 400;
+} */
+
+/* header 부분 ios */
+.noti_list_header {
+  top: 0;
+  left: 20px;
+  padding-top: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  right: 20px;
+  background-color: white;
+}
+
+/* header 부분 and */
+/* .noti_list_header {
+  top: 0;
+  left: 20px;
+  padding-top: 30px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  right: 20px;
+  background-color: white;
+} */
+
+/* 개별 게시물 전체 틀 */
+.noti_list_content_item {
+  padding: 22px 0 20px 0;
+  border-top: rgb(237, 237, 237) 1px solid;
+  color: rgba(56, 56, 56);
+}
+
+.noti_list_item_text {
+  display: flex;
+}
+
+.noti_list_item_new {
+  font-size: 9px;
+  color: #fff;
+  margin-left: 7px;
+  border-radius: 9px;
+  background-color: rgb(253, 114, 62);
+  border: 0;
+  padding: 3px 7px 2px;
+  height: 11px;
+}
+
+.noti_list_content_item:last-child {
+  border-bottom: rgb(237, 237, 237) 1px solid;
+}
+
+/*  개별 게시물 업로드 날짜 - date */
+.noti_list_item_date {
+  padding-top: 16px;
+  font-size: 13px;
+  color: rgba(56, 56, 56, 0.4);
+}

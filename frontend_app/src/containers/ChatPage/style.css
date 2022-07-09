@@ -1,0 +1,276 @@
+.chatpage_container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 60px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
+}
+
+.chatpage_container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.chatpage_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+/* ios */
+.chatpage_header2 {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  padding: 40px 20px 0 20px;
+}
+
+/* and */
+/* .chatpage_header2 {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  padding: 30px 20px 0 20px;
+} */
+
+.chatpage_name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.chatpage_info {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0.39;
+  margin: 6px 0 7px 0;
+}
+
+/* 게시물 내용 틀 */
+.chatpage_post {
+  font-weight: 700;
+  font-size: 12px;
+  padding: 20px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
+/* header 헤더부분 - 설정버튼 */
+#chatpage_checkbox {
+  display: none;
+}
+.chatpage_checkBtn {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+
+.chatpage_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatpage_menu ul {
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #fff;
+  list-style: none;
+  visibility: hidden;
+  position: fixed;
+  width: 175px;
+  top: 40px;
+  right: 20px;
+  z-index: 100;
+  padding-left: 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.chatpage_menu ul li {
+  padding: 12px 0;
+  padding-left: 17px;
+  cursor: pointer;
+}
+.chatpage_menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#chatpage_checkbox:checked ~ .chatpage_menu ul {
+  visibility: visible;
+}
+#chatpage_checkbox:checked ~ .chatpage_background {
+  display: block;
+}
+.chatpage_background {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: transparent;
+  display: none;
+}
+
+/* 채팅 전 내용 ios */
+.chatpage_beforeChat {
+  padding: 200px 20px 65px 20px;
+  display: flex;
+}
+
+/* 채팅 전 내용 and */
+/* .chatpage_beforeChat {
+  padding: 190px 20px 65px 20px;
+  display: flex;
+} */
+
+.chatpage_beforeLogo {
+  width: 78px;
+  height: 100%;
+  margin: 0 15px 0 auto;
+}
+
+.chatpage_beforeInfo {
+  line-height: 1.5;
+  padding: 2px;
+  margin-right: auto;
+  font-size: 13px;
+  opacity: 0.45;
+}
+
+/* 채팅 후 내용 ios */
+#chatpage_afterChat {
+  padding: 195px 20px 0 20px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+
+/* 채팅 후 내용 and */
+/* #chatpage_afterChat {
+  padding: 175px 20px 0 20px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+} */
+
+#chatpage_afterChat::-webkit-scrollbar {
+  display: none;
+}
+
+.chatpage_date1 {
+  text-align: center;
+}
+
+.chatpage_date2 {
+  background-color: black;
+  opacity: 0.12;
+  border-radius: 9px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+.chatpage_content_r {
+  display: flex;
+  margin: 10px 0 10px 37px;
+}
+
+.chatpage_content_l {
+  display: flex;
+  margin: 10px 0;
+}
+
+.chatpage_time_r {
+  margin: auto 5px 0 0;
+  margin-left: auto;
+}
+
+.chatpage_time_l {
+  margin: auto 0 0 5px;
+  margin-right: auto;
+}
+
+.chatpage_time {
+  font-size: 10px;
+  color: #a7a7a7;
+  white-space: nowrap;
+}
+
+.chatpage_words_r {
+  font-size: 14px;
+  background-color: #ffce00;
+  border-radius: 15px 3px 15px 15px;
+  padding: 10px 10px 10px 13px;
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.chatpage_words_l {
+  font-size: 14px;
+  background-color: white;
+  border-radius: 3px 15px 15px 15px;
+  border: #ededed solid 1px;
+  padding: 10px 13px 10px 10px;
+  display: inline-block;
+  margin-top: 3px;
+  white-space: pre-wrap;
+}
+
+.chatpage_profile {
+  margin-right: 5px;
+}
+
+.chatpage_profile > div {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.chatpage_profile_name {
+  font-size: 14px;
+  color: #383838;
+  margin-top: 7px;
+}
+
+/* 메시지 입력 */
+.chatpage_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.chatpage_footer2 {
+  padding: 10px 20px calc(constant(safe-area-inset-bottom) + 10px);
+  padding: 10px 20px calc(env(safe-area-inset-bottom) + 10px);
+  display: flex;
+}
+
+.chatpage_message {
+  background-color: #fcf8e7;
+  width: 95%;
+  border-radius: 15px;
+}
+
+.unblock {
+  padding: 14px 10px 0;
+}
+
+.block {
+  padding: 10px 16px 0;
+}
+
+#chatpage_messageIn {
+  font-size: 14px;
+  background-color: #fcf8e7;
+  outline: none;
+  border: none;
+  resize: none;
+  width: 100%;
+}
+
+.chatpage_messageBtn {
+  margin: auto auto auto 10px;
+  padding: auto;
+  cursor: pointer;
+}

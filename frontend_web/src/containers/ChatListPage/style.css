@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1000px) {
+  /* 헤더 */
+  .chatting_container {
+    margin: 130px 0 0;
+    display: block;
+    font-weight: 700;
+  }
+
+  .chatting_header {
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .chatting_header2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 32px 20px 10px;
+  }
+
+  /* 채팅 목록 틀 */
+  .chatting_box {
+    width: 100%;
+    position: relative;
+  }
+
+  .chatting_noitem {
+    margin-top: 200px;
+  }
+
+  .chatting_noitem p {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(0, 0, 0, 0.3);
+    line-height: 20px;
+  }
+
+  .chatting_item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding: 2px 0;
+    font-size: 13px;
+  }
+
+  /* 알림 미리보기 정보*/
+
+  .chatting_text {
+    padding-top: 20px;
+  }
+  .chatting_text .chatting_name {
+    margin: 0px 10px 0px 0px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .chatting_text .chatting_major {
+    color: rgb(0, 0, 0, 0.23);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .chatting_text .chatting_dot {
+    color: rgb(0, 0, 0, 0.23);
+    margin: 0 3px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .chatting_text .chatting_stNum {
+    color: rgb(0, 0, 0, 0.23);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .chatting_text p {
+    margin-top: 7px;
+  }
+
+  /*알림 텍스트*/
+  .chatting_item .chatting_text {
+    margin-bottom: 20px;
+    width: 110%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  /*알림 이미지*/
+  .chatting_item .chatting_img {
+    margin: 0 15px 0 20px;
+  }
+
+  .chatting_img > div {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  /* 채팅 목록 우측 알림 */
+  .chatting_alert {
+    width: 60px;
+  }
+
+  .chatting_item .chatting_alert {
+    padding-right: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(0, 0, 0, 0.23);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .chatting_item .chatting_time {
+    padding-top: 8px;
+    margin-bottom: auto;
+  }
+
+  .chatting_item .chatting_new {
+    margin-top: 10px;
+    margin-left: auto;
+    right: 0;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffce00;
+    border-radius: 1rem;
+  }
+
+  .chatting_item .chatting_blank {
+    margin-top: 10px;
+    margin-left: auto;
+    right: 0;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .chatting_count {
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .chatting_box > a:last-child > .chatting_end {
+    border-top: 1px solid #eee;
+    padding-bottom: 80px;
+  }
+}

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.skkuchin.skkuchin" version="1.0.6" android-versionCode="12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>스꾸친</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <preference name="AllowUntrustedCerts"  value="true" />
+    <preference name="InterceptRemoteRequests" value="all" />
+    <preference name="allowFileAccessFromFileURLs" value="true" />
+    <preference name="allowUniversalAccessFromFileURLs" value="true" />
+    <preference name="SplashScreenDelay" value="1000" />
+    <preference name="FadeSplashScreenDuration" value="100"/>
+    <preference name="ShowSplashScreenSpinner" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <!-- icon -->
+        <icon background="res/icon/android/mdpi-background.png" density="mdpi" foreground="res/icon/android/mdpi-foreground.png" />
+        <icon background="res/icon/android/hdpi-background.png" density="hdpi" foreground="res/icon/android/hdpi-foreground.png" />
+        <icon background="res/icon/android/xhdpi-background.png" density="xhdpi" foreground="res/icon/android/xhdpi-foreground.png" />
+        <icon background="res/icon/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icon/android/xxhdpi-foreground.png" />
+        <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" />
+        <!-- splash -->
+        <splash src="res/screen/android/splash-port-hdpi.jpg" density="hdpi" />
+        <splash src="res/screen/android/splash-port-ldpi.jpg" density="ldpi" />
+        <splash src="res/screen/android/splash-port-mdpi.jpg" density="mdpi" />
+        <splash src="res/screen/android/splash-port-xhdpi.jpg" density="xhdpi" />
+        <splash src="res/screen/android/splash-port-xxhdpi.jpg" density="xxhdpi" />
+        <splash src="res/screen/android/splash-port-xxxhdpi.jpg" density="xxxhdpi" /> 
+
+        <splash src="res/screen/android/splash-port-hdpi.jpg" density="port-hdpi" />
+        <splash src="res/screen/android/splash-port-ldpi.jpg" density="port-ldpi" />
+        <splash src="res/screen/android/splash-port-mdpi.jpg" density="port-mdpi" />
+        <splash src="res/screen/android/splash-port-xhdpi.jpg" density="port-xhdpi" />
+        <splash src="res/screen/android/splash-port-xxhdpi.jpg" density="port-xxhdpi" />
+        <splash src="res/screen/android/splash-port-xxxhdpi.jpg" density="port-xxxhdpi" /> 
+
+        <config file="AndroidManifest.xml" mode="merge" target="/manifest/uses-permission" xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config>
+    </platform>
+    <platform name="ios">
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/icon/ios/icon-60.png" width="60" height="60" />
+        <icon src="res/icon/ios/icon-60@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/icon/ios/icon-76.png" width="76" height="76" />
+        <icon src="res/icon/ios/icon-76@2x.png" width="152" height="152" />
+        <!-- Spotlight Icon -->
+        <icon src="res/icon/ios/icon-40.png" width="40" height="40" />
+        <icon src="res/icon/ios/icon-40@2x.png" width="80" height="80" />
+        <!-- iOS 6.1 -->
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/icon/ios/icon.png" width="57" height="57" />
+        <icon src="res/icon/ios/icon@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="res/icon/ios/icon-72.png" width="72" height="72" />
+        <icon src="res/icon/ios/icon-72@2x.png" width="144" height="144" />
+        <!-- iPad Pro -->
+        <icon src="res/icon/ios/icon-167.png" width="167" height="167" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="res/icon/ios/icon-small.png" width="29" height="29" />
+        <icon src="res/icon/ios/icon-small@2x.png" width="58" height="58" />
+        <icon src="res/icon/ios/icon-small@3x.png" width="87" height="87" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="res/icon/ios/icon-50.png" width="50" height="50" />
+        <icon src="res/icon/ios/icon-50@2x.png" width="100" height="100" />
+        <!-- iPad Pro -->
+        <icon src="res/icon/ios/icon-167.png" width="167" height="167" />
+        <!-- iTunes Marketing Image -->
+        <icon src="res/icon/ios/icon-1024.png" width="1024" height="1024" />
+        <!-- splash -->
+        <splash src="res/screen/ios/Default@2x~universal~anyany.jpg" />
+        <splash src="res/screen/ios/Default@2x~universal~comany.jpg" />
+        <splash src="res/screen/ios/Default@3x~universal~anyany.jpg" />
+        <splash src="res/screen/ios/Default@3x~universal~comany.jpg" />
+        <!-- image settings -->
+        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+            <string>기기의 카메라에 접근하려고 합니다</string>
+        </edit-config>
+        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+            <string>기기의 사진첩에 접근하려고 합니다</string>
+        </edit-config>
+    </platform>
+</widget>

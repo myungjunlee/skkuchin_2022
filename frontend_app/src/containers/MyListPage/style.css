@@ -1,0 +1,76 @@
+/* ios */
+.manage {
+  padding: 90px 20px calc(constant(safe-area-inset-bottom) + 20px);
+  padding: 90px 20px calc(env(safe-area-inset-bottom) + 20px);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* and */
+/* .manage {
+  padding: 70px 20px 20px;
+  font-size: 14px;
+  font-weight: 700;
+} */
+
+/* header 부분 ios */
+.manage_header {
+  top: 0;
+  left: 20px;
+  padding-top: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  right: 20px;
+  background-color: white;
+}
+
+/* header 부분 and */
+/* .manage_header {
+  top: 0;
+  left: 20px;
+  padding-top: 30px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  right: 20px;
+  background-color: white;
+} */
+
+/* 개별 게시물 전체 틀 */
+.manage_content_item {
+  padding: 15px 0 0 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(237, 237, 237) 1px solid;
+}
+
+/*  개별 게시물 업로드 날짜 - date */
+.manage_litem_date {
+  padding-top: 11px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.66);
+}
+
+/*  개별 게시물 대기/마감 여부 - 대기 중 state_wait */
+.manage_content_ritem .manage_state_wait {
+  padding: 11px 21px;
+  background-color: rgb(255, 206, 0);
+  color: #fff;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*  개별 게시물 대기/마감 여부 - 마감 state_done */
+.manage_content_ritem .manage_state_done {
+  padding: 11px 21px;
+  background-color: rgb(253, 114, 62);
+  color: #fff;
+  border-radius: 15px;
+  font-size: 15px;
+}

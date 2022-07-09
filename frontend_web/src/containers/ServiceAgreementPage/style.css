@@ -1,0 +1,53 @@
+.service_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+  height: 100%;
+  overflow: auto;
+}
+
+.service_header {
+  display: flex;
+  margin: 32px 20px 0;
+}
+
+.service_header h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #242424;
+}
+
+.service_main {
+  margin: 0 20px;
+}
+
+.service_main ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.service_main > ul > li:last-child {
+  margin-bottom: 25px;
+}
+
+.service_content,
+.service_main,
+.service_paragraph {
+  margin-top: 25px;
+}
+
+.service_content {
+  font-size: 13px;
+}
+
+.service_paragraph {
+  color: #6b6b6b;
+  line-height: 20px;
+}
+
+.service_paragraph h4 {
+  font-weight: 700;
+  font-size: 15px;
+}

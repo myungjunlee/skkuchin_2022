@@ -1,0 +1,433 @@
+/* 그리드 ios */
+.register_content {
+  padding: 80px 20px 0;
+  font-weight: 700;
+}
+
+/* 그리드 and */
+/* .register_content {
+  padding: 60px 20px 0;
+  font-weight: 700;
+} */
+
+/* 헤더 */
+.register_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+/* ios */
+.register_header2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 50px 20px 10px;
+}
+
+/* and */
+/* .register_header2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 30px 20px 10px;
+} */
+
+.register_header3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* 각 소제목 */
+.register_title {
+  width: 100%;
+  margin: 25px auto 0 auto;
+}
+
+.register_title h2 {
+  margin: 0 auto;
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+/* login ID 박스 */
+#register_email {
+  margin-top: 10px;
+  display: table;
+  width: 100%;
+  align-items: center;
+}
+
+#register_ID {
+  display: table-cell;
+  width: 40%;
+}
+
+/* 아이디 중복확인 버튼 */
+#register_confirm {
+  display: block;
+  height: 21px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: #ffcf00;
+  position: relative;
+  margin-top: 7px;
+}
+
+#register_confirm button {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#register_emailtype {
+  display: flex;
+  vertical-align: middle;
+  padding-left: 8px;
+}
+
+.register_notice {
+  vertical-align: middle;
+  margin-top: 13px;
+  padding-left: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(0, 0, 0, 0.58);
+}
+
+/* 아이디 제외 모든 입력 박스 */
+.register_text {
+  margin-top: 7px;
+  width: 100%;
+}
+
+/* 입력 박스 */
+.register_int {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 27px;
+  border: none;
+  background: #fffced;
+  font-size: 17px;
+}
+
+.register_box {
+  display: block;
+  width: 100%;
+  height: 47px;
+  padding: 10px 15px 8px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #fffced;
+  position: relative;
+}
+
+/* 비밀번호 확인 간극 */
+#register_password {
+  padding-bottom: 10px;
+}
+
+.register_passwordCheck {
+  font-size: 11px;
+  margin-top: 8px;
+  padding-left: 15px;
+  font-weight: 400;
+}
+
+#register_passwordcheck .register_box {
+  display: flex;
+}
+
+/* 비밀번호 확인 체크박스 */
+#register_passwordcheck .register_box img {
+  width: 19px;
+  height: 19px;
+  margin: auto 0;
+}
+
+/* mbti, major 입력 경고 메시지 */
+.register_mbtiCheck,
+.register_majorCheck {
+  font-size: 11px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 15px;
+  font-weight: 400;
+  color: rgb(251, 13, 21);
+}
+
+/* 회원가입 다음 버튼 */
+.register_btn {
+  text-align: center;
+  margin-top: 45px;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 10px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 10px);
+}
+
+.register_btn button {
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 54px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffcf00;
+  font-weight: 700;
+}
+
+.register_activate {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.register_deactivate {
+  opacity: 0.4;
+  cursor: unset;
+}
+
+.register_verifyOption > div {
+  padding: 20px;
+  background-color: white;
+  margin: 10px 0px;
+  border: 1px solid rgb(255, 206, 0);
+  border-radius: 15px;
+}
+
+.register_verifyOption > div > h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.register_verifyOption > div > div {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* 스꾸친 로고 (no_text) */
+.certification_logo {
+  text-align: center;
+  margin-top: 20%;
+}
+
+/* 제목 */
+.certification_title {
+  text-align: center;
+}
+
+.certification_title h1 {
+  font-weight: 100;
+  margin-top: 12px;
+}
+
+/* 설명 */
+.certification_text {
+  margin-top: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.certification_text p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.certification_image {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.certification_image_btn {
+  font-size: 18px;
+  border-radius: 15px;
+  border: 2px solid rgb(70, 70, 70, 0.6);
+  background-color: rgb(255, 206, 0, 0.07);
+  padding: 30px;
+  width: 200px;
+  margin: auto;
+}
+
+.certification_img_uploaded {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* 이메일 ID 입력칸 */
+#certification_email {
+  margin-top: 31px;
+  display: table;
+  width: 100%;
+  align-items: center;
+}
+
+#certification_ID {
+  display: table-cell;
+  width: 40%;
+}
+
+.certification_int {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 29px;
+  border: none;
+  background: #fffced;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.certification_box {
+  display: block;
+  width: 100%;
+  height: 51px;
+  padding: 10px 14px 10px 17px;
+  box-sizing: border-box;
+  border-radius: 0.7rem;
+  background: #fffced;
+  position: relative;
+}
+
+/* 이메일 타입 선택 */
+#certification_emailtype {
+  display: table-cell;
+  width: 40%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.certification_sel {
+  width: 100%;
+  height: 29px;
+  font-size: 16px;
+  background: #fffced;
+  background-size: 20px 8px;
+  -webkit-appearance: none;
+  display: inline-block;
+  text-align: start;
+  border: none;
+  cursor: default;
+  font-family: "NN";
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.certification_checkBox {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+}
+
+.certification_checkBox .input-text {
+  width: 17px;
+  height: 17px;
+  margin-right: 7px;
+  margin-left: auto;
+}
+
+.certification_checkBox .checkBox_info {
+  padding-top: 1.5px;
+  margin-right: auto;
+}
+
+.certification_checkBox .checkBox_info span {
+  cursor: pointer;
+}
+
+.certification_checkBox strong {
+  font-weight: 900;
+}
+
+/* 이메일 인증 버튼 */
+.certification_btn {
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.certification_btn2 {
+  margin: 0 20px calc(constant(safe-area-inset-bottom) + 20px);
+  margin: 0 20px calc(env(safe-area-inset-bottom) + 20px);
+}
+
+.certification_btn2 button {
+  font-size: 18px;
+  color: white;
+  height: 54px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffcf00;
+  width: 100%;
+}
+
+.certification_activate {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.certification_deactivate {
+  opacity: 0.4;
+  cursor: unset;
+}
+
+/* 주의사항 */
+.certification_explain {
+  padding: 20px 0 calc(constant(safe-area-inset-bottom) + 100px);
+  padding: 20px 0 calc(env(safe-area-inset-bottom) + 100px);
+  text-align: center;
+}
+
+.certification_explain p {
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.45);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+/* 자동완성 기능 관련 css 추가 */
+.register_autoCompleteText ul::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+  border-radius: 0.5rem;
+}
+
+.register_autoCompleteText ul::-webkit-scrollbar-thumb {
+  background: #ffcf00;
+  border-radius: 0.5rem;
+}
+
+.register_autoCompleteText ul {
+  list-style-type: none;
+  margin-top: 10px;
+  background: #fffced;
+  border-radius: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 75px;
+  padding-left: 0;
+}
+
+.register_autoCompleteText li {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+}

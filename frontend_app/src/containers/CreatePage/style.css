@@ -1,0 +1,136 @@
+/* ios */
+.upload {
+  display: block;
+  font-weight: 700;
+  padding: 100px 20px calc(constant(safe-area-inset-bottom) + 100px);
+  padding: 100px 20px calc(env(safe-area-inset-bottom) + 100px);
+}
+
+/* and */
+/* .upload {
+  display: block;
+  font-weight: 700;
+  padding: 80px 20px 100px;
+} */
+
+/* header 헤더부분 */
+.upload_header {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* ios */
+.upload_header2 {
+  margin: 50px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+/* and */
+/* .upload_header2 {
+  margin: 30px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+} */
+
+/* content 밥약신청 폼 전체 틀 */
+.upload_content {
+  position: relative;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+  padding-bottom: 80px;
+}
+/* content 밥약신청 폼 subtitle : 일시/장소 간격 margin-top 설정 */
+.upload_content > div > form > .upload_subtitle {
+  margin-top: 12px;
+}
+/* content 밥약신청 폼 subtitle 시작위치 설정 */
+.upload_content > div > form > div {
+  padding-left: 8px;
+}
+
+/* content 밥약신청 폼 기본 틀 */
+.upload_content > div > form {
+  position: relative;
+  display: block;
+}
+/* form input (제목/일시/장소) 입력 부분 */
+.upload_content > div > form > input {
+  font-size: 15px;
+  width: 100%;
+  color: rgba(0, 0, 0);
+  padding: 12.5px 15px;
+  margin-top: 7px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgba(255, 206, 0, 0.07);
+}
+/* form textarea (본문) 입력 부분 */
+form textarea {
+  font-size: 14px;
+  color: rgba(0, 0, 0);
+  padding: 16px 15px 0px;
+  width: 100%;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgba(255, 206, 0, 0.07);
+  resize: none;
+}
+
+.upload_select {
+  width: 100%;
+  height: 42px;
+  font-size: 15px;
+  background: rgba(255, 206, 0, 0.07);
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 15px;
+  margin-top: 8px;
+  padding: 12.5px 15px;
+}
+
+/* 완료 버튼 */
+/* 비활성 상태 */
+.upload_btn_deactive {
+  position: fixed;
+  bottom: calc(constant(safe-area-inset-bottom) + 25px);
+  bottom: calc(env(safe-area-inset-bottom) + 25px);
+  border: 0;
+  border-radius: 15px;
+  background-color: rgba(255, 206, 0);
+  color: #fff;
+  font-size: 18px;
+  width: 88%;
+  padding: 3%;
+  left: 0;
+  margin: 0 6%;
+  opacity: 0.4;
+}
+
+/* 활성 상태 */
+.upload_btn_active {
+  position: fixed;
+  bottom: calc(constant(safe-area-inset-bottom) + 25px);
+  bottom: calc(env(safe-area-inset-bottom) + 25px);
+  border: 0;
+  border-radius: 15px;
+  background-color: rgba(255, 206, 0);
+  color: #fff;
+  font-size: 18px;
+  width: 88%;
+  padding: 3%;
+  left: 0;
+  margin: 0 6%;
+  cursor: pointer;
+}

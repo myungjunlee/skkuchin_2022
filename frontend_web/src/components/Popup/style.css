@@ -1,0 +1,111 @@
+/* 팝업창을 제외한 배경 투명하게 */
+.popup_wrap {
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  padding: 20px;
+  z-index: 999;
+}
+
+/* 팝업창 */
+.popup_box {
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.report_box {
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* '밥약 마감하시겠습니까?' 글씨 */
+.popup_text {
+  font-size: 16px;
+  margin-top: 43px;
+  margin-bottom: 43px;
+}
+
+.report_text {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* 두 개의 버튼 감싸는 div */
+.popup_buttonDiv {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report_buttonDiv {
+  margin: 15px 0 10px;
+}
+
+/* 두 개의 버튼 공통 css */
+.popup_button {
+  border: none;
+  border-radius: 15px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.report_button {
+  border-bottom: 1px solid rgb(222, 222, 222);
+  font-size: 15px;
+  padding: 12px;
+}
+
+.report_button:last-child {
+  margin-bottom: 20px;
+}
+
+.popup_label {
+  margin-right: 5px;
+  border: 1px solid black;
+  padding: 10px 18px;
+  border-radius: 15px;
+}
+
+.popup_image_button {
+  margin-left: 20px;
+  border: 1px solid black;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.popup_image_button2 {
+  margin: 20px 0;
+}
+
+/* 확인 버튼 */
+#popup_ok {
+  background-color: #ffce00;
+  color: white;
+  width: 100%;
+  margin-right: 10px;
+}
+
+/* 취소 버튼 */
+#popup_cancel {
+  background-color: white;
+  color: #ffce00;
+  border: 1px solid #ffce00;
+  width: 100%;
+  margin-left: 10px;
+}

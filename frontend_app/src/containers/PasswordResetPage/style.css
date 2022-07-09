@@ -1,0 +1,139 @@
+/* ios */
+.passwordReset00 {
+  font-weight: 700;
+  padding: 100px 20px 20px;
+}
+
+/* and */
+/* .passwordReset00 {
+  font-weight: 700;
+  padding: 80px 20px 20px;
+} */
+
+.passwordReset00_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+/* ios */
+.passwordReset00_header2 {
+  margin: 50px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+/* and */
+/* .passwordReset00_header2 {
+  margin: 30px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+} */
+
+/* 안내 */
+.passwordReset00_password_noti {
+  padding-left: 10px;
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.9);
+}
+
+/* 이메일 입력 */
+#passwordReset00_email {
+  margin-top: 10px;
+  width: 100%;
+  display: table;
+  align-items: center;
+}
+
+#passwordReset00_ID {
+  display: table-cell;
+  width: 40%;
+}
+
+.passwordReset00_int {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 29px;
+  border: none;
+  background: #fffced;
+  font-size: 17px;
+}
+
+.passwordReset00_box {
+  display: block;
+  width: 100%;
+  height: 51px;
+  padding: 10px 14px 10px 14px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #fffced;
+  position: relative;
+}
+
+/* 이메일 타입 선택 */
+#passwordReset00_emailtype {
+  display: table-cell;
+  width: 40%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.passwordReset00_sel {
+  width: 100%;
+  height: 29px;
+  font-size: 17px;
+  background: #fffced;
+  background-size: 20px 8px;
+  -webkit-appearance: none;
+  display: inline-block;
+  text-align: start;
+  border: none;
+  cursor: default;
+  font-weight: 400;
+}
+
+/* 비밀번호 초기화 버튼 */
+.passwordReset00_btn {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.passwordReset00_btn button {
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffce00;
+}
+
+.passwordReset00_activate {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.passwordReset00_deactivate {
+  opacity: 0.4;
+  cursor: unset;
+}
+
+/* 비밀번호 초기화 문구 */
+.passwordReset00_explain {
+  margin-top: 15px;
+}
+
+.passwordReset00_explain p {
+  font-size: 12px;
+  color: #7c7c7c;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

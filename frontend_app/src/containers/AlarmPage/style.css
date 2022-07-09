@@ -1,0 +1,98 @@
+/* 전체 그리드 ios*/
+.alarm_wrapper {
+  padding: 100px 20px 60px;
+}
+
+/* 전체 그리드 and*/
+/* .alarm_wrapper {
+  padding: 80px 20px 60px;
+} */
+
+/* 화면 상단 */
+.alarm_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+/* ios */
+.alarm_top2 {
+  margin: 50px 20px 10px;
+  display: flex;
+}
+
+/* and */
+/* .alarm_top2 {
+  margin: 30px 20px 10px;
+  display: flex;
+} */
+
+/* 화면 상단의 '마이페이지' 글씨 */
+.alarm_top2 h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.alarm_item {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.2px solid #ededed;
+  border-bottom: 1.2px solid #ededed;
+  cursor: pointer;
+}
+
+.alarm_content {
+  padding-top: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.alarm_right_content {
+  padding-bottom: 20px;
+}
+
+.alarm_input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.alarm_switch {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 20px;
+  background: rgb(233, 233, 233);
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.alarm_switch:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.alarm_input:checked + label {
+  background: rgb(255, 206, 0);
+}
+
+.alarm_input:checked + label:after {
+  left: calc(100% - 3px);
+  transform: translateX(-100%);
+}
+
+.alarm_switch:active:after {
+  width: 25px;
+}

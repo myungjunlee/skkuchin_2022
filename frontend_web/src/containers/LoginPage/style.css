@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1000px) {
+  /* 로그인 마진 */
+  .login_container {
+    margin: 150px 20px 20px;
+  }
+
+  /* 로그인창 로고 */
+  .login_logo {
+    text-align: center;
+  }
+
+  /* 로그인창 인사말 */
+  .login_greeting {
+    text-align: center;
+  }
+
+  .login_greeting h1 {
+    font-weight: 100;
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  /* 로그인 ID */
+
+  .login_ID {
+    height: 25px;
+    margin-top: 45px;
+    border-radius: 15px;
+    background-color: rgb(255, 206, 0, 0.07);
+    padding: 10px;
+  }
+
+  .login_ID input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+    color: black;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .login_ID input::placeholder {
+    color: rgb(0, 0, 0, 0.3);
+  }
+
+  /* 로그인 비밀번호 */
+  .login_text {
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 206, 0, 0.07);
+    padding: 10px;
+  }
+
+  .login_text input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+    color: black;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .login_text input::placeholder {
+    color: rgb(0, 0, 0, 0.3);
+  }
+
+  /* 로그인 검증 문구 */
+  .login_alert {
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+    margin: 8px 0 0 10px;
+  }
+
+  .login_bold {
+    font-weight: 700;
+  }
+
+  /* 로그인 버튼 */
+  .login_btn {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffcf00;
+    border-radius: 15px;
+    height: 54px;
+  }
+
+  .login_btn button {
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    height: 54px;
+    cursor: pointer;
+  }
+
+  /* 로그인창 회원가입, 비밀번호 초기화 버튼 */
+  .login_register_btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .login_register_btn button {
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    color: #707070;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 13px;
+  }
+
+  .login_register_btn #register {
+    color: black;
+    cursor: pointer;
+  }
+
+  .login_register_btn #reset {
+    color: #bebebe;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,354 @@
+{
+    "suwonList": [
+        {
+            "id": "41",
+            "name": "오스테리아우노",
+            "explanation": "스파게티, 파스타",
+            "address": "경기 수원시 장안구 율전로98번길 7 102호",
+            "heartCnt": 0,
+            "img": "오스테리아우노.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "42",
+            "name": "보영만두",
+            "explanation": "만두, 쫄면",
+            "address": "경기 수원시 장안구 화산로233번길 30",
+            "heartCnt": 0,
+            "img": "보영만두.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "43",
+            "name": "카마타케제면소",
+            "explanation": "우동, 소바",
+            "address": "경기 수원시 장안구 서부로 2149 4층 405호",
+            "heartCnt": 0,
+            "img": "카마타케제면소.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "44",
+            "name": "청년밥상",
+            "explanation": "제육쌈밥, 우렁쌈밥",
+            "address": "경기 수원시 장안구 서부로2136번길 10 1층",
+            "heartCnt": 0,
+            "img": "청년밥상.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "45",
+            "name": "키와마루아지",
+            "explanation": "라멘, 돈부리",
+            "address": "경기 수원시 장안구 서부로2105번길 26-3 1층",
+            "heartCnt": 0,
+            "img": "키와마루아지.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "46",
+            "name": "떡보킹",
+            "explanation": "떡볶이",
+            "address": "경기 수원시 장안구 율전로 84 의성빌딩 102호",
+            "heartCnt": 0,
+            "img": "떡보킹.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "47",
+            "name": "생각나는순대국",
+            "explanation": "순대, 순댓국",
+            "address": "경기 수원시 장안구 율전로 84 성대어시장",
+            "heartCnt": 0,
+            "img": "생각나는순대국.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "48",
+            "name": "도레미파스타",
+            "explanation": "파스타, 리조또, 필라프",
+            "address": "경기 수원시 장안구 화산로259번길 51 1층",
+            "heartCnt": 0,
+            "img": "도레미파스타.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "49",
+            "name": "수해복",
+            "explanation": "마라탕",
+            "address": "경기 수원시 장안구 서부로2105번길 7 1층",
+            "heartCnt": 0,
+            "img": "수해복.png",
+            "location": "",
+            "category": "중식"
+        },
+        {
+            "id": "50",
+            "name": "찜닭에 꽂힌 닭집애",
+            "explanation": "찜닭, 칼국수",
+            "address": "경기 수원시 장안구 일월로66번길 15 1층",
+            "heartCnt": 0,
+            "img": "찜닭에꽂힌닭집애.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "51",
+            "name": "정성식탁",
+            "explanation": "파스타, 리조또",
+            "address": "경기 수원시 장안구 서부로2136번길 9",
+            "heartCnt": 0,
+            "img": "정성식탁.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "52",
+            "name": "에스쿱",
+            "explanation": "파스타, 와인",
+            "address": "경기 수원시 장안구 덕영대로445번길 37",
+            "heartCnt": 0,
+            "img": "에스쿱.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "53",
+            "name": "홍매스시",
+            "explanation": "초밥",
+            "address": "경기 수원시 장안구 서부로2123번길 27",
+            "heartCnt": 0,
+            "img": "홍매스시.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "54",
+            "name": "도래홍막창",
+            "explanation": "막창, 특수부위",
+            "address": "경기 수원시 장안구 서부로2105번길 16-4 1층",
+            "heartCnt": 0,
+            "img": "도래홍막창.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "55",
+            "name": "고씨네",
+            "explanation": "카레",
+            "address": "경기 수원시 장안구 서부로2105번길 21 2층",
+            "heartCnt": 0,
+            "img": "고씨네.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "56",
+            "name": "쉐프의 부대찌개",
+            "explanation": "부대찌개",
+            "address": "경기 수원시 장안구 화산로233번길 56",
+            "heartCnt": 0,
+            "img": "쉐프의부대찌개.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "57",
+            "name": "미가라멘",
+            "explanation": "라멘, 돈부리",
+            "address": "경기 수원시 장안구 화산로233번길 59",
+            "heartCnt": 0,
+            "img": "미가라멘.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "58",
+            "name": "사우스스트릿",
+            "explanation": "치즈버거",
+            "address": "경기 수원시 장안구 율전로 102-4",
+            "heartCnt": 0,
+            "img": "사우스스트릿.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "59",
+            "name": "택이네 조개전골",
+            "explanation": "조개전골",
+            "address": "경기 수원시 장안구 율전로98번길 9 101호",
+            "heartCnt": 0,
+            "img": "택이네조개전골.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "60",
+            "name": "본찌돈까스",
+            "explanation": "돈까스",
+            "address": "경기 수원시 장안구 서부로2106번길 22",
+            "heartCnt": 0,
+            "img": "본찌돈까스.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "61",
+            "name": "바른스시",
+            "explanation": "초밥, 롤",
+            "address": "경기 수원시 장안구 서부로 2125 2층",
+            "heartCnt": 0,
+            "img": "바른스시.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "62",
+            "name": "아웃닭",
+            "explanation": "치킨",
+            "address": "경기 수원시 장안구 화산로213번길 15",
+            "heartCnt": 0,
+            "img": "아웃닭.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "63",
+            "name": "마포구이촌",
+            "explanation": "삼겹살, 점심특선",
+            "address": "경기 수원시 장안구 화산로233번길 49",
+            "heartCnt": 0,
+            "img": "마포구이촌.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "64",
+            "name": "짬뽕타임",
+            "explanation": "짬뽕, 짜장면",
+            "address": "경기 수원시 장안구 서부로2123번길 34-3",
+            "heartCnt": 0,
+            "img": "짬뽕타임.png",
+            "location": "",
+            "category": "중식"
+        },
+        {
+            "id": "65",
+            "name": "최고당돈가스",
+            "explanation": "돈가스, 쫄면, 냉모밀",
+            "address": "경기 수원시 장안구 서부로2105번길 21 103호",
+            "heartCnt": 0,
+            "img": "최고당돈가스.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "66",
+            "name": "60판왕뚜껑삼겹살",
+            "explanation": "삽겹살",
+            "address": "경기 수원시 장안구 서부로 2107",
+            "heartCnt": 0,
+            "img": "60판왕뚜껑삼겹살.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "67",
+            "name": "포동이네",
+            "explanation": "초밥",
+            "address": "경기 수원시 장안구 율전로98번길 6-2",
+            "heartCnt": 0,
+            "img": "포동이네.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "68",
+            "name": "일미리금계찜닭",
+            "explanation": "찜닭",
+            "address": "경기 수원시 장안구 서부로2126번길 26 1층",
+            "heartCnt": 0,
+            "img": "일미리금계찜닭.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "69",
+            "name": "인더비엣",
+            "explanation": "쌀국수, 분짜, 팟타이",
+            "address": "경기 수원시 장안구 율전로108번길 23",
+            "heartCnt": 0,
+            "img": "인더비엣.png",
+            "location": "",
+            "category": "기타"
+        },
+        {
+            "id": "70",
+            "name": "모수밀면",
+            "explanation": "밀면, 만두",
+            "address": "경기 수원시 장안구 율전로107번길 5 해생빌딩 1층",
+            "heartCnt": 0,
+            "img": "모수밀면.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "71",
+            "name": "아그집쭈꾸미",
+            "explanation": "쭈꾸미",
+            "address": "경기 수원시 장안구 화산로233번길 12 2층",
+            "heartCnt": 0,
+            "img": "아그집쭈꾸미.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "72",
+            "name": "성대곱창",
+            "explanation": "곱창, 대창",
+            "address": "경기 수원시 장안구 율전로 96 1층",
+            "heartCnt": 0,
+            "img": "성대곱창.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "73",
+            "name": "달달한쌈이야기",
+            "explanation": "월남쌈",
+            "address": "경기 수원시 장안구 화산로 263 신일아파트상가 B02호",
+            "heartCnt": 0,
+            "img": "달달한쌈이야기.png",
+            "location": "",
+            "category": "기타"
+        },
+        {
+            "id": "74",
+            "name": "포크포크",
+            "explanation": "눈꽃치즈 매콤돈가스",
+            "address": "경기 수원시 장안구 화산로233번길 12 2층",
+            "heartCnt": 0,
+            "img": "포크포크.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "75",
+            "name": "미미",
+            "explanation": "생연어, 짬뽕, 볶음우동",
+            "address": "경기 수원시 장안구 율전로80번길 1-1",
+            "heartCnt": 0,
+            "img": "미미.png",
+            "location": "",
+            "category": "일식"
+        }
+    ]
+}

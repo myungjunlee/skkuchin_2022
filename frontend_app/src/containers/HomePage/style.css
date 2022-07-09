@@ -1,0 +1,375 @@
+/* ios */
+.home {
+  margin-top: 310px;
+  z-index: 1;
+  font-weight: 700;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 100px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 100px);
+}
+
+/* and */
+/* .home {
+  margin-top: 290px;
+  z-index: 1;
+  font-weight: 700;
+  padding-bottom: 100px;
+} */
+
+/* home_searchbar 검색창 ios */
+.home_noti1 {
+  z-index: 1;
+  top: 95px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* home_searchbar 검색창 and */
+/* .home_noti1 {
+  z-index: 1;
+  top: 75px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+} */
+
+.home_noti2 {
+  height: 46px;
+  background-color: #fff;
+  margin: 0 20px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 15px;
+}
+
+.home_noti2 > div {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 15px 15px 0;
+  font-weight: 400;
+  display: flex;
+}
+
+.home_noti2 > div > div:last-child {
+  font-size: 9px;
+  color: #fff;
+  margin-left: 15px;
+  border-radius: 9px;
+  background-color: rgb(253, 114, 62);
+  border: 0;
+  padding: 3px 7px 2px;
+  height: 11px;
+}
+
+/* home_searchbar 검색창 ios */
+.home_searchbar1 {
+  z-index: 1;
+  top: 143px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* home_searchbar 검색창 and */
+/* .home_searchbar1 {
+  z-index: 1;
+  top: 123px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+} */
+
+.home_searchbar2 {
+  padding-top: 7px;
+  height: 46px;
+  background-color: #fff;
+  display: flex;
+  margin: 0 20px;
+}
+
+.home_searchbar2 input {
+  width: 100%;
+  height: 100%;
+  padding-left: 49px;
+  font-size: 14px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #fcf8e7;
+  border: 0;
+}
+
+/* 게시글 개별 아이템 */
+.home_content {
+  transform: translateY(-100px);
+  transition: 0.4s 0.22s ease-in-out;
+}
+
+/* 로딩 표시 */
+.home_loading_container {
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_loading {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.42);
+  border-right-color: rgba(0, 0, 0, 0.42);
+  animation: aniLoading 0.5s infinite forwards;
+}
+
+@keyframes aniLoading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home .home_content ul {
+  padding-left: 0px;
+}
+
+.home_content ul .home_item {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+  padding: 16px 18px;
+  margin: 0 2px;
+}
+
+.home_content > a:last-child > ul > div {
+  margin-bottom: 15px;
+}
+#home_top_part {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.home_frame {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#home_info {
+  display: flex;
+  margin-top: 2px;
+}
+
+#hname {
+  padding: 3px 6px 0 10px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+#hcategory {
+  width: 70px;
+  height: 14px;
+  padding-top: 3px;
+}
+
+#hmajor {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.42);
+  padding-left: 10px;
+  padding-top: 3px;
+  white-space: nowrap;
+}
+
+#htime {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.42);
+  margin-left: auto;
+  white-space: nowrap;
+  padding-top: 6px;
+}
+
+/* home_bottom_part => 게시글 하단 부분 (게시글 내용,일시,장소) */
+.home_bottom_part {
+  padding: 0px 6px;
+}
+
+.home_bottom_part span {
+  font-size: 15px;
+}
+
+.home_bottom_part .home_promise_info {
+  display: flex;
+  padding-top: 13px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.home_bottom_part > div > div:nth-child(3) {
+  padding-left: 27px;
+}
+
+.hclose {
+  font-size: 11px;
+  color: white;
+  background-color: rgb(112, 112, 112);
+  margin-right: 8px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.home_promise_info2 {
+  margin-top: 3.5px;
+  white-space: nowrap;
+}
+
+#hdate,
+#hplace {
+  padding-left: 8px;
+  width: 25%;
+  overflow-x: auto;
+  font-weight: 400;
+}
+
+#hdate {
+  margin-right: 15px;
+}
+
+#hdate::-webkit-scrollbar,
+#hplace::-webkit-scrollbar {
+  display: none;
+}
+
+.write_btn {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 1;
+}
+
+.navbar {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* navbar 헤더부분 ios */
+.navbar_main {
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+  width: 100%;
+}
+
+/* navbar 헤더부분 and */
+/* .navbar_main {
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+  width: 100%;
+} */
+
+/* navbar 헤더부분 - 우측 메뉴버튼 ios */
+.navbar_icons > div > label {
+  background-color: #fff;
+  padding: 50px 0 24px;
+  top: 0;
+  right: 20px;
+}
+
+/* navbar 헤더부분 - 우측 메뉴버튼 and */
+/* .navbar_icons > div > label {
+  background-color: #fff;
+  padding: 30px 0 24px;
+  top: 0;
+  right: 20px;
+} */
+
+/* Sidebar */
+#checkbox {
+  display: none;
+}
+
+/* Menu(사이드바 호출) 버튼 */
+.btn {
+  display: block;
+  position: absolute;
+}
+
+.sidebar {
+  font-weight: 400;
+  top: 0%;
+  background-color: #ffffff;
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(+100%);
+  right: 0;
+  z-index: 999;
+  border-radius: 15px 0 0 15px;
+}
+
+.navbar_my_info {
+  margin-top: 150px;
+}
+
+/* 이용현황 */
+.sidebar .navbar_my_info h3 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #444444;
+  padding-bottom: 46.5px;
+  border-bottom: 1px solid #d4d4d4;
+}
+/* Sidebar 사이드바 하단 - 메뉴항목 리스트 전체 틀  */
+.sidebar ul {
+  padding-top: 31.5px;
+  padding-left: 0;
+  text-align: center;
+}
+/* 메뉴 개별항목 (밥약게시판/커리어게시판//채팅목록/마이페이지) */
+.sidebar > ul > li {
+  list-style-type: none;
+  position: relative;
+  text-decoration: none;
+  display: block;
+  color: #585759;
+  font-weight: 700;
+  padding: 15px 10px;
+  font-size: 25px;
+}
+
+/* 메뉴 아이콘 클릭-> 체크버튼 활성화 -> 사이드바 슬라이드 */
+#checkbox:checked ~ .sidebar {
+  transform: translateX(0);
+}
+#checkbox:checked ~ .background {
+  display: block;
+}
+.background {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none;
+}

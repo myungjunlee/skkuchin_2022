@@ -1,0 +1,405 @@
+{
+    "restaurantList": [
+        {
+            "id": "1",
+            "name": "정돈",
+            "explanation": "안심 돈카츠, 등심 돈카츠",
+            "address": "서울 종로구 명륜 4가 107 지하1층",
+            "heartCnt": 0,
+            "img": "정돈.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "2",
+            "name": "깔리",
+            "explanation": "인도음식, 커리",
+            "address": "서울 종로구 명륜 4가 170-3 2층",
+            "heartCnt": 0,
+            "img": "깔리.png",
+            "location": "소나무길",
+            "category": "기타"
+        },
+        {
+            "id": "3",
+            "name": "구스토랩",
+            "explanation": "파스타, 스테이크",
+            "address": "서울 종로구 동숭동 1-63 2층",
+            "heartCnt": 0,
+            "img": "구스토랩.png",
+            "location": "1번 출구 근처",
+            "category": "양식"
+        },
+        {
+            "id": "4",
+            "name": "호호식당",
+            "explanation": "사케동, 가츠나베정식",
+            "address": "서울 종로구 대학로9길 35",
+            "heartCnt": 0,
+            "img": "호호식당.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "5",
+            "name": "멘야산다이메",
+            "explanation": "일본식 라면",
+            "address": "서울 종로구 명륜4가 147-1",
+            "heartCnt": 0,
+            "img": "멘야산다이메.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "6",
+            "name": "혜화 칼국수",
+            "explanation": "칼국수, 생선튀김",
+            "address": "서울 종로구 혜화동 84-3",
+            "heartCnt": 0,
+            "img": "혜화칼국수.png",
+            "location": "혜화동로터리",
+            "category": "한식"
+        },
+        {
+            "id": "7",
+            "name": "하이디라오",
+            "explanation": "훠궈",
+            "address": "서울 종로구 대학로 146 혜화동씨티밸리 3층",
+            "heartCnt": 0,
+            "img": "하이디라오.png",
+            "location": "1번 출구 근처",
+            "category": "중식"
+        },
+        {
+            "id": "8",
+            "name": "뎁짜이",
+            "explanation": "베트남음식",
+            "address": "서울 종로구 대학로11길 41-4",
+            "heartCnt": 0,
+            "img": "뎁짜이.png",
+            "location": "소나무길",
+            "category": "기타"
+        },
+        {
+            "id": "9",
+            "name": "미도인",
+            "explanation": "가정식스테이크와 덮밥",
+            "address": "서울 종로구 대학로9길 32 1층",
+            "heartCnt": 0,
+            "img": "미도인.jpg",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "10",
+            "name": "파스타마켓",
+            "explanation": "스파게티, 파스타",
+            "address": "서울 종로구 대학로11길 9-5",
+            "heartCnt": 0,
+            "img": "파스타마켓.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "11",
+            "name": "혜화도담",
+            "explanation": "김치찜, 대파전",
+            "address": "서울 종로구 대명1길 16-6",
+            "heartCnt": 0,
+            "img": "혜화도담.png",
+            "location": "",
+            "category": "한식"
+
+        },
+        {
+            "id": "12",
+            "name": "오이지",
+            "explanation": "퓨전 한식집",
+            "address": "서울 종로구 대학로9길 33",
+            "heartCnt": 0,
+            "img": "오이지.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "13",
+            "name": "서양집",
+            "explanation": "파스타, 리조또",
+            "address": "서울 종로구 대학로9길 23-2",
+            "heartCnt": 0,
+            "img": "서양집.png",
+            "location": "",
+            "category": "양식"
+        },
+        {
+            "id": "14",
+            "name": "고물상",
+            "explanation": "피자, 맥주",
+            "address": "서울 종로구 대학로11길 38-6",
+            "heartCnt": 0,
+            "img": "고물상.png",
+            "location": "소나무길",
+            "category": "양식"
+        },
+        {
+            "id": "15",
+            "name": "낙원테산도",
+            "explanation": "카츠산도, 오믈렛",
+            "address": "서울 종로구 대학로11길 43 1층",
+            "heartCnt": 0,
+            "img": "낙원테산도.png",
+            "location": "소나무길",
+            "category": "양식"
+        },
+        {
+            "id": "16",
+            "name": "피터팬스테이크",
+            "explanation": "스테이크, 파스타",
+            "address": "서울 종로구 대학로14길 21",
+            "heartCnt": 0,
+            "img": "피터팬스테이크.png",
+            "location": "1번 출구 근처",
+            "category": "양식"
+        },
+        {
+            "id": "17",
+            "name": "도토리편백집",
+            "explanation": "편백찜 샤브샤브",
+            "address": "서울 종로구 창경궁로34길 26",
+            "heartCnt": 0,
+            "img": "도토리편백집.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "18",
+            "name": "페르시안궁전",
+            "explanation": "카레, 케밥",
+            "address": "서울 종로구 성균관로6길 9",
+            "heartCnt": 0,
+            "img": "페르시안궁전.png",
+            "location": "정문",
+            "category": "기타"
+        },
+        {
+            "id": "19",
+            "name": "혜화곱창",
+            "explanation": "곱창, 대창",
+            "address": "서울 종로구 대명1길 20 1층",
+            "heartCnt": 0,
+            "img": "혜화곱창.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "20",
+            "name": "메밀향그집",
+            "explanation": "닭볶음탕",
+            "address": "서울 종로구 대학로11길 18",
+            "heartCnt": 0,
+            "img": "메밀향그집.png",
+            "location": "소나무길",
+            "category": "한식"
+        },
+        {
+            "id": "21",
+            "name": "칸다소바",
+            "explanation": "마제소바, 아부라소바",
+            "address": "서울 종로구 대학로 131-1",
+            "heartCnt": 0,
+            "img": "칸다소바.png",
+            "location": "",
+            "category": "일식"
+        },
+        {
+            "id": "22",
+            "name": "고쿠텐",
+            "explanation": "텐동",
+            "address": "서울 종로구 대학로11길 34",
+            "heartCnt": 0,
+            "img": "고쿠텐.png",
+            "location": "소나무길",
+            "category": "일식"
+        },
+        {
+            "id": "23",
+            "name": "혜화시장",
+            "explanation": "사태찜, 한우튀김",
+            "address": "서울 종로구 창경궁로34길 24-6 2층",
+            "heartCnt": 0,
+            "img": "혜화시장.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "24",
+            "name": "쪼리375",
+            "explanation": "색다른 찜닭",
+            "address": "서울 종로구 대학로11길 16",
+            "heartCnt": 0,
+            "img": "쪼리375.png",
+            "location": "소나무길",
+            "category": "한식"
+        },
+        {
+            "id": "25",
+            "name": "소친친",
+            "explanation": "퓨전 중식당. 꿔바로우, 차오판",
+            "address": "서울 종로구 대명길 39-9 2층",
+            "heartCnt": 0,
+            "img": "소친친.jpg",
+            "location": "",
+            "category": "중식"
+        },
+        {
+            "id": "26",
+            "name": "대포찜닭",
+            "explanation": "찜닭",
+            "address": "서울 종로구 대학로9길 18 1층",
+            "heartCnt": 0,
+            "img": "대포찜닭.png",
+            "location": "",
+            "category": "한식"
+        },
+        {
+            "id": "27",
+            "name": "이유식당",
+            "explanation": "백반, 가정식",
+            "address": "서울 종로구 창경궁로26길 41-3 1층",
+            "heartCnt": 0,
+            "img": "이유식당.png",
+            "location": "소나무길",
+            "category": "한식"
+        },
+        {
+            "id": "28",
+            "name": "돈돈정",
+            "explanation": "일본 가정식",
+            "address": "서울 종로구 대학로11길 46 1층",
+            "heartCnt": 0,
+            "img": "돈돈정.png",
+            "location": "소나무길",
+            "category": "일식"
+        },
+        {
+            "id": "29",
+            "name": "홍순두부",
+            "explanation": "순두부찌개",
+            "address": "서울 종로구 명륜길 50",
+            "heartCnt": 0,
+            "img": "홍순두부.png",
+            "location": "쪽문",
+            "category": "한식"
+        },
+        {
+            "id": "30",
+            "name": "이명근떡볶이",
+            "explanation": "떡볶이",
+            "address": "서울 종로구 명륜길 40-1",
+            "heartCnt": 0,
+            "img": "이명근떡볶이.png",
+            "location": "쪽문",
+            "category": "한식"
+        },
+        {
+            "id": "31",
+            "name": "밥은화",
+            "explanation": "직화 돼지숙주덮밥",
+            "address": "서울 종로구 명륜길 41 1층",
+            "heartCnt": 0,
+            "img": "밥은화.png",
+            "location": "쪽문",
+            "category": "한식"
+        },
+        {
+            "id": "32",
+            "name": "품",
+            "explanation": "제육볶음, 찌개",
+            "address": "서울 종로구 명륜길 36 (명륜3가) 1층",
+            "heartCnt": 0,
+            "img": "품.jpg",
+            "location": "쪽문",
+            "category": "한식"
+        },
+        {
+            "id": "33",
+            "name": "쇼타돈부리",
+            "explanation": "돈부리, 카레",
+            "address": "서울 종로구 명륜2길 3-1",
+            "heartCnt": 0,
+            "img": "쇼타돈부리.jpg",
+            "location": "쪽문",
+            "category": "일식"
+        },
+        {
+            "id": "34",
+            "name": "소반",
+            "explanation": "부추 돼지 생구이, 잔치국수",
+            "address": "서울 종로구 명륜2길 4 1층",
+            "heartCnt": 0,
+            "img": "소반.png",
+            "location": "쪽문",
+            "category": "한식"
+        },
+        {
+            "id": "35",
+            "name": "벤프",
+            "explanation": "파스타, 피자",
+            "address": "서울 종로구 명륜길 13",
+            "heartCnt": 0,
+            "img": "벤프.jpg",
+            "location": "쪽문",
+            "category": "양식"
+        },
+        {
+            "id": "36",
+            "name": "후룩뽕",
+            "explanation": "짬뽕, 짜장면",
+            "address": "서울 종로구 성균관로 26-5",
+            "heartCnt": 0,
+            "img": "후룩뽕.png",
+            "location": "정문",
+            "category": "중식"
+        },
+        {
+            "id": "37",
+            "name": "홍곱창",
+            "explanation": "곱창, 막창",
+            "address": "서울 종로구 성균관로5길 13",
+            "heartCnt": 0,
+            "img": "홍곱창.png",
+            "location": "정문",
+            "category": "한식"
+        },
+        {
+            "id": "38",
+            "name": "천향록",
+            "explanation": "마라탕",
+            "address": "서울 종로구 성균관로 12 유니지오",
+            "heartCnt": 0,
+            "img": "천향록.png",
+            "location": "정문",
+            "category": "중식"
+        },
+        {
+            "id": "39",
+            "name": "도스타코스",
+            "explanation": "타코, 부리또",
+            "address": "서울 종로구 창경궁로29길 5 1층",
+            "heartCnt": 0,
+            "img": "도스타코스.png",
+            "location": "정문",
+            "category": "기타"
+        },
+        {
+            "id": "40",
+            "name": "기꾸스시",
+            "explanation": "초밥",
+            "address": "서울 종로구 성균관로 2",
+            "heartCnt": 0,
+            "img": "기꾸스시.png",
+            "location": "정문",
+            "category": "일식"
+        }
+    ]
+}

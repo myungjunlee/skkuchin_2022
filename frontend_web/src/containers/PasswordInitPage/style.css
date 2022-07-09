@@ -1,0 +1,107 @@
+/* 헤더 */
+.passwordReset01 {
+  font-weight: 700;
+  margin: 80px 20px 0;
+}
+
+.passwordReset01_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.passwordReset01_header2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 32px 20px 10px;
+}
+
+/* 안내 */
+.passwordReset01_noti {
+  margin-top: 35px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.9);
+}
+
+/* 입력 틀*/
+.password_reset01 {
+  width: 100%;
+  width: 100%;
+}
+
+/* 비밀번호 입력 */
+.passwordReset01_box {
+  display: block;
+  width: 100%;
+  height: 47px;
+  padding: 8px 15px 8px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #fffced;
+  position: relative;
+}
+
+.passwordReset01_int {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 29px;
+  border: none;
+  background: #fffced;
+  font-size: 17px;
+}
+/* header 왼쪽 부분: 뒤로가기 아이콘, 페이지 제목 */
+
+.passwordReset01_text {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* 비밀번호 확인 간극 */
+#passwordReset01_password {
+  padding-bottom: 10px;
+}
+
+/* 초기화 버튼 */
+.passwordReset01_btn {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.passwordReset01_btn button {
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffce00;
+}
+
+.passwordReset01_activate {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.passwordReset01_deactivate {
+  opacity: 0.4;
+  cursor: unset;
+}
+
+/* 초기화 설명 */
+.passwordReset01_explain {
+  margin-top: 15px;
+}
+
+.passwordReset01_explain p {
+  font-size: 12px;
+  color: #7c7c7c;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

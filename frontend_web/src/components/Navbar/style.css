@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1000px) {
+  /* navbar 헤더부분 */
+  .navbar {
+    top: 0;
+    left: 20px;
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 40px;
+    background-color: #fff;
+    z-index: 10;
+  }
+  /* navbar 헤더부분 - 우측 아이콘 정렬 */
+  .navbar .navbar_icons {
+    display: flex;
+  }
+  /* navbar 헤더부분 - 우측 메뉴버튼 */
+  .navbar_icons > div > label {
+    background-color: #fff;
+    padding: 32px 0 24px;
+    top: 0;
+  }
+
+  /* Sidebar */
+  #checkbox {
+    display: none;
+  }
+
+  /* Menu(사이드바 호출) 버튼 */
+  .btn {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    font-weight: 400;
+    top: 0%;
+    background-color: #ffffff;
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(+100%);
+    right: 0;
+    z-index: 999;
+    border-radius: 15px 0 0 15px;
+  }
+
+  /* Sidebar 사이드바 상단 프로필 */
+  /* 프로필 - 이미지 */
+  /* Sidebar 사이드바 상단 프로필 */
+  /* 프로필 - 이미지 */
+  .sidebar .profile_img {
+    z-index: 999;
+    margin: 95px 0 23px;
+  }
+  /* 프로필 이미지 동그라미 액자 */
+  .navbar_frame {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  /* 프로필 - 00님 */
+  .sidebar .navbar_my_info h3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #444444;
+    padding-bottom: 46.5px;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  /* Sidebar 사이드바 하단 - 메뉴항목 리스트 전체 틀  */
+  .sidebar ul {
+    padding-top: 31.5px;
+    left: 16.5px;
+    list-style-type: none;
+    position: static;
+  }
+  /* 메뉴 개별항목 (밥약게시판/커리어게시판//채팅목록/마이페이지) */
+  .sidebar > ul > li > a {
+    list-style-type: none;
+    position: relative;
+    text-decoration: none;
+    display: block;
+    color: #585759;
+    padding: 15px 10px;
+    font-size: 18px;
+  }
+
+  .sidebar > ul > li > img {
+    vertical-align: middle;
+    padding-bottom: 1px;
+  }
+  .sidebar .log_out {
+    position: fixed;
+    right: 40px;
+    bottom: 6%;
+    font-size: 13px;
+    color: #444;
+    opacity: 0.42;
+    cursor: pointer;
+  }
+
+  /* 메뉴 아이콘 클릭-> 체크버튼 활성화 -> 사이드바 슬라이드 */
+  #checkbox:checked ~ .sidebar {
+    transform: translateX(0);
+  }
+  #checkbox:checked ~ .background {
+    display: block;
+  }
+  .background {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: none;
+  }
+}

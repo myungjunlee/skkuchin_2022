@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1000px) {
+  .home {
+    margin-top: 135px;
+    z-index: 1;
+    font-weight: 700;
+  }
+
+  /* home_searchbar 검색창 */
+  .home_searchbar1 {
+    z-index: 1;
+    top: 73px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .home_searchbar2 {
+    padding-top: 7px;
+    height: 46px;
+    background-color: #fff;
+    display: flex;
+    margin: 0 20px;
+  }
+
+  .home_searchbar2 input {
+    width: 100%;
+    height: 100%;
+    padding-left: 49px;
+    font-size: 14px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #fcf8e7;
+    border: 0;
+  }
+
+  /* 게시글 개별 아이템 */
+  .home .home_content ul {
+    padding-left: 0px;
+  }
+
+  .home_content ul .home_item {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+    padding: 16px 18px;
+    margin: 0 2px;
+  }
+
+  .home_content > a:last-child > ul > div {
+    margin-bottom: 15px;
+  }
+  #home_top_part {
+    display: flex;
+    margin-bottom: 13px;
+  }
+
+  .home_frame {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  #home_info {
+    display: flex;
+    margin-top: 2px;
+  }
+  #hname {
+    padding: 3px 6px 0 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  #hcategory {
+    width: 70px;
+    height: 14px;
+    padding-top: 3px;
+  }
+  #hmajor {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.42);
+    padding-left: 10px;
+    padding-top: 3px;
+    white-space: nowrap;
+  }
+
+  #htime {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.42);
+    margin-left: auto;
+    white-space: nowrap;
+    padding-top: 6px;
+  }
+
+  /* home_bottom_part => 게시글 하단 부분 (게시글 내용,일시,장소) */
+  .home_bottom_part {
+    padding: 0px 6px;
+  }
+
+  .home_bottom_part span {
+    font-size: 15px;
+  }
+
+  .home_bottom_part .home_promise_info {
+    display: flex;
+    padding-top: 13px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .home_bottom_part > div > div:nth-child(3) {
+    padding-left: 27px;
+  }
+
+  .hclose {
+    font-size: 11px;
+    color: white;
+    background-color: rgb(112, 112, 112);
+    margin-right: 8px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .home_promise_info2 {
+    margin-top: 3.5px;
+    white-space: nowrap;
+  }
+
+  #hdate,
+  #hplace {
+    padding-left: 8px;
+    width: 25%;
+    overflow-x: auto;
+    font-weight: 400;
+  }
+
+  #hdate {
+    margin-right: 15px;
+  }
+
+  #hdate::-webkit-scrollbar,
+  #hplace::-webkit-scrollbar {
+    display: none;
+  }
+
+  .write_btn {
+    position: fixed;
+    top: 85%;
+    right: 20px;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,110 @@
+.profile {
+  font-size: 14px;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 99;
+}
+
+/* header 부분 */
+.profile_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+/* ios */
+.profile_header2 {
+  margin: 50px 20px 10px;
+  display: flex;
+  font-size: 18px;
+}
+
+/* and */
+/* .profile_header2 {
+  margin: 30px 20px 10px;
+  display: flex;
+  font-size: 18px;
+} */
+
+/* 프로필 상단 부분 profile_top_part ios */
+.profile_top_part {
+  padding: 140px 0 36px;
+  align-items: center;
+  text-align: center;
+}
+
+/* 프로필 상단 부분 profile_top_part and */
+/* .profile_top_part {
+  padding: 120px 0 36px;
+  align-items: center;
+  text-align: center;
+} */
+
+.profile_frame {
+  display: inline-block;
+  width: 116px;
+  height: 116px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.profile_name {
+  margin: 12px 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.profile_intro {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* 프로필 하단 부분 profile_bottom_part  */
+.profile_bottom_part {
+  padding: 13px 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.46);
+  border-top: 1px solid rgba(112, 112, 112, 0.14);
+  border-bottom: 1px solid rgba(112, 112, 112, 0.14);
+}
+.profile_bottom_part div {
+  display: flex;
+}
+
+.profile_major,
+.profile_stuNum,
+.profile_mbti {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 3px 10px;
+  margin-right: 6px;
+  border-radius: 10px;
+  background-color: #e9e9e9;
+}
+.profile_mbti {
+  margin-left: 19px;
+}
+
+.profile_major,
+.profile_second_left {
+  margin-left: 20%;
+}
+
+.profile_major_content,
+.profile_second_right {
+  margin-right: auto;
+}
+
+.profile_bottom_part > div:nth-child(1) {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+/* 기본 틀 : 폰트,여백 설정 */
+@font-face {
+  src: url("./font/NanumSquareRoundOTFL.otf") format("truetype");
+  font-family: "NN";
+  font-weight: 100;
+}
+@font-face {
+  src: url("./font/NanumSquareRoundOTFR.otf") format("truetype");
+  font-family: "NN";
+  font-weight: 400;
+}
+@font-face {
+  src: url("./font/NanumSquareRoundOTFB.otf") format("truetype");
+  font-family: "NN";
+  font-weight: 700;
+}
+@font-face {
+  src: url("./font/NanumSquareRoundOTFEB.otf") format("truetype");
+  font-family: "NN";
+  font-weight: 900;
+}
+
+* {
+  font-family: "NN";
+  margin: 0;
+}
+
+/* a태그 (게시판 이동) 하이퍼링크 deco 제거 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+option:focus,
+button:focus {
+  outline: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}

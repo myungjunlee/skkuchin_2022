@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1000px) {
+  /* 전체 그리드 */
+  .mypage_wrapper {
+    margin: 130px 20px 0;
+    padding-bottom: 80px;
+  }
+
+  /* 화면 상단 */
+  .mypage_top {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .mypage_top2 {
+    margin: 32px 20px 10px;
+    display: flex;
+  }
+
+  /* 화면 상단의 '마이페이지' 글씨 */
+  .mypage_top2 h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .mypage_profileBox {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  /* 프로필 사진 */
+  .mypage_profileImage > div {
+    display: inline-block;
+    width: 116px;
+    height: 116px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  .mypage_profileText {
+    margin-left: 20px;
+  }
+
+  .mypage_name {
+    display: flex;
+  }
+
+  /* 'ㅇㅇㅇ님' 글씨 */
+  .mypage_name h2 {
+    /* flex: 5; */
+    margin: 0;
+    font-weight: 700;
+    color: #444444;
+  }
+
+  /* 연필 이미지 */
+  .mypage_name > a > img {
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+
+  .mypage_info {
+    display: flex;
+  }
+
+  .mypage_table {
+    margin-top: 9px;
+    border-spacing: 4px 5px;
+  }
+
+  .mypage_table tr {
+    height: 14px;
+  }
+
+  /* 학번, 학과, MBTI 글씨 */
+  .mypage_tableTitle {
+    font-size: 11px;
+    text-align: center;
+    color: #918f8f;
+    background-color: #e9e9e9;
+    border-radius: 0.7rem;
+    width: 15%;
+    padding: 2px 7px 2px 7px;
+    height: 60%;
+    font-weight: 900;
+  }
+
+  .mypage_tableContent {
+    font-size: 14px;
+    font-weight: 700;
+    color: #918f8f;
+  }
+
+  .mypage_table tr {
+    height: 20px;
+  }
+
+  .mypage_list > a:first-child > .mypage_item {
+    border-top: 1.2px solid #ededed;
+  }
+
+  .mypage_item {
+    border-bottom: 1.2px solid #ededed;
+    padding: 21px 0 21px 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #494949;
+    cursor: pointer;
+  }
+}

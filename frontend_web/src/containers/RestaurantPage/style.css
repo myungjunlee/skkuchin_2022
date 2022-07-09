@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1000px) {
+  .restaurantList-wrapper {
+    padding-top: 165px;
+  }
+
+  .restaurantList_header {
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .restaurantList_header2 {
+    font-size: 18px;
+    margin: 32px 20px 0;
+    font-weight: 700;
+  }
+
+  .restaurant-filter {
+    margin: 20px 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 70px;
+    background: white;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .restaurant-location,
+  .restaurant-category {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+
+  .restaurant-location div,
+  .restaurant-category div {
+    background-color: rgb(252, 252, 244);
+    margin: 3px;
+    border: 1px solid #ffce00;
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .restaurant-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  /* 식당 사진 동그랗게 */
+  .restaurant-img-box {
+    width: 95px;
+    height: 95px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin: 10px 16px 16px 20px;
+  }
+  .restaurant-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .restaurant-box {
+    margin: 22px 16px 10px 10px;
+    width: 60%;
+  }
+
+  .restaurant-box-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .restaurant-box-top h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .restaurant-heart {
+    width: 14px;
+    height: 14px;
+  }
+
+  .restaurant-explanation,
+  .restaurant-address,
+  .restaurant-heartCnt {
+    margin-bottom: 7px;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+
+  .restaurant-box-bottom {
+    display: flex;
+  }
+
+  .restaurant-redHeart {
+    width: 9px;
+    height: 9px;
+    margin-right: 5px;
+    margin-top: 1px;
+  }
+}

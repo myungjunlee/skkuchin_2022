@@ -1,0 +1,222 @@
+/* ios */
+.notice {
+  padding-top: 100px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* and */
+/* .notice {
+  padding-top: 80px;
+  font-size: 15px;
+  font-weight: 700;
+} */
+
+/* header 부분 */
+.notice_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+/* ios */
+.notice_header2 {
+  margin: 50px 50px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+/* and */
+/* .notice_header2 {
+  margin: 30px 50px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+} */
+
+/* header 왼쪽 부분: 뒤로가기 아이콘, 페이지 제목 */
+.notice .notice_hleft {
+  display: flex;
+}
+.notice .notice_hleft .notice_pagetitle {
+  padding-left: 15px;
+}
+
+#notice_top_part {
+  margin: 0 20px 18px;
+  display: flex;
+}
+
+.notice_frame {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#notice_info {
+  display: flex;
+  margin-top: 2px;
+}
+#notice_name {
+  padding: 3px 10px 0 10px;
+  font-size: 14px;
+}
+
+#notice_mbti {
+  background-color: #ffce00;
+  height: fit-content;
+  margin: 5px 6px 0 0;
+  padding: 2px 7px 0;
+  border-radius: 9px;
+  font-size: 9px;
+  color: #fff;
+  font-weight: 900;
+}
+#notice_number {
+  background-color: #fff;
+  height: fit-content;
+  margin-top: 5px;
+  padding: 1px 5px 0 4px;
+  border-radius: 9px;
+  font-size: 9px;
+  color: #ffce00;
+  border: 1px solid #ffce00;
+  font-weight: 900;
+  white-space: nowrap;
+}
+#notice_major {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.42);
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+#notice_time {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.42);
+  margin-left: auto;
+  white-space: nowrap;
+  padding-top: 6px;
+}
+
+/* 게시물 하단 부분 (회색 직선 기준으로 아랫부분) notice_bottom_part */
+.notice_bottom_part .notice_item {
+  padding-left: 6px;
+  margin: 0 20px;
+}
+.notice_item_title {
+  padding-bottom: 13px;
+}
+.notice_bottom_part .notice_item_content {
+  font-size: 13px;
+  font-weight: 400;
+  white-space: pre-wrap;
+}
+/* 게시물 하단 부분 - 일시/장소 포함 밥약 신청박스 */
+.notice_promise_info {
+  border-top: 1px solid rgba(112, 112, 112, 0.14);
+  padding: 15px 18px;
+  margin: 0 2px;
+  align-items: center;
+}
+
+.notice_bottom_part > div.notice_promise_info > div:nth-child(1) {
+  display: flex;
+  padding: 0 0 14px 6px;
+}
+
+.notice_bottom_part > div.notice_promise_info > div:nth-child(1) .date,
+.place {
+  color: rgba(0, 0, 0, 0.5);
+}
+.notice_bottom_part > div.notice_promise_info > div:nth-child(2) {
+  display: flex;
+  padding-left: 6px;
+}
+
+.notice_bottom_part > div.notice_promise_info > div:nth-child(1) .date_text,
+.place_text {
+  margin-left: 9px;
+}
+
+/* 게시물 하단 부분 - 밥약신청 버튼 */
+.notice_btn {
+  border: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 206, 0);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 27px;
+  cursor: pointer;
+}
+
+.notice_btnOver {
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(253, 114, 62, 0.5);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 27px;
+}
+
+/* header 헤더부분 - 설정버튼 */
+#notice_checkbox {
+  display: none;
+}
+.notice_checkBtn {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.notice_header2 > label {
+  background-color: #fff;
+  top: 32px;
+  right: 20px;
+}
+
+.notice_menu ul {
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #fff;
+  list-style: none;
+  visibility: hidden;
+  position: fixed;
+  width: 175px;
+  top: 53px;
+  right: 20px;
+  z-index: 100;
+  padding-left: 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.notice_menu ul li {
+  padding: 12px 0;
+  padding-left: 17px;
+}
+.notice_menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#notice_checkbox:checked ~ .notice_menu ul {
+  visibility: visible;
+}
+#notice_checkbox:checked ~ .notice_background {
+  display: block;
+}
+.notice_background {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: transparent;
+  display: none;
+}
