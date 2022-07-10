@@ -25,4 +25,5 @@
 <a href="https://apps.apple.com/kr/app/%EC%8A%A4%EA%BE%B8%EC%B9%9C/id1600835217">iOS 앱 다운로드</a>
 <br>
 <a href="https://play.google.com/store/apps/details?id=com.skkuchin.skkuchin">Android 앱 다운로드</a>
+<br>
 <a href="https://www.notion.so/17a69b97b0374e87bcca51baea66034c">스꾸친 팀 소개</a>
