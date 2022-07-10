@@ -20,7 +20,7 @@
 <br>
 
 ## 링크
-<a href="www.skkuchin.com">모바일 웹사이트</a>
+<a href="https://www.skkuchin.com">모바일 웹사이트</a>
 <br>
 <a href="https://apps.apple.com/kr/app/%EC%8A%A4%EA%BE%B8%EC%B9%9C/id1600835217">iOS 앱 다운로드</a>
 <br>
