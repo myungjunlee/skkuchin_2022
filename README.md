@@ -14,7 +14,7 @@
 
 ## 아키텍쳐
 
-![architecture](https://user-images.githubusercontent.com/77501800/178157492-d8a59464-d6bb-40e4-8d1b-a7697ce04f3a.png)
+![architecture](https://user-images.githubusercontent.com/77501800/180921319-04ab9551-1871-41e7-8f76-c3f41d0adac5.png)
 
 
 <br>
