@@ -144,10 +144,6 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = 1024000000
 DEFAULT_FILE_STORAGE = 'auth_system.storages.S3DefaultStorage'
 STATICFILES_STORAGE = 'auth_system.storages.S3StaticStorage'
 
-# AWS Access
-AWS_ACCESS_KEY_ID = 'AKIAXGY43ZX4SWBKOB6M'
-AWS_SECRET_ACCESS_KEY = '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'
-
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated'
