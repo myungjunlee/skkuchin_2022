@@ -5,13 +5,22 @@
 
 ## 사용 기술
 - Front-End: React.js, Redux, Apache Cordova
-- Back-End: Django
-- Server: Nginx
-- Cloud: AWS (EC2, S3, RDS), Firebase
+- Back-End: Django, Nginx, Gunicorn
+- DevOps: AWS(EC2, RDS, S3), Firebase(FCM, Firestore, Functions)
 - Database: MySQL
+- Library, Plugin: djoser, cordova-plugin-firebasex
 
 <br>
 
-## 아키텍쳐
+## 모바일 앱 아키텍쳐
+<img width="1024" alt="app architecture" src="https://user-images.githubusercontent.com/77501800/233308864-57152669-0ddc-4a0e-aaf8-2aff97b0e6a1.png">
 
-![architecture](https://user-images.githubusercontent.com/77501800/180921319-04ab9551-1871-41e7-8f76-c3f41d0adac5.png)
+<br>
+
+## 웹 아키텍쳐
+<img width="612" alt="web architecture" src="https://user-images.githubusercontent.com/77501800/233309016-fd65575c-d1d5-4645-8840-8c44467966b9.png">
+
+<br>
+
+## 스크린샷
+<img width="812" alt="image" src="https://user-images.githubusercontent.com/77501800/233310126-2f71f0b4-e913-477b-9205-2e6795749783.png">
