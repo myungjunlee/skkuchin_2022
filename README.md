@@ -8,7 +8,7 @@
 - Back-End: Django, Nginx, Gunicorn
 - DevOps: AWS(EC2, RDS, S3), Firebase(FCM, Firestore, Functions)
 - Database: MySQL
-- Library, Plugin: djoser, cordova-plugin-firebasex
+- Library, Plugin: [djoser](https://djoser.readthedocs.io/en/latest/), [cordova-plugin-firebasex](https://github.com/dpa99c/cordova-plugin-firebasex)
 
 <br>
 
